@@ -1,2 +1,2 @@
-# Accessibility_guide_ua
-Master thesis 
+Посібник по веб-доступності
+Магістерська робота  
