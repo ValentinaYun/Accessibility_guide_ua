@@ -8,8 +8,10 @@ for (i = 0; i < acc.length; i++) {
         var accordion_content = this.nextElementSibling;
         if (accordion_content.style.display === "block") {
             accordion_content.style.display = "none";
+            this.setAttribute("aria-expanded", "false");
         } else {
             accordion_content.style.display = "block";
+            this.setAttribute("aria-expanded", "true");
         }
     });
 }

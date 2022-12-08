@@ -156,11 +156,12 @@ p{
     padding: 2.4rem;
 }
 
-.card h4{
+.card h3{
     font-size: 2rem;
     font-weight: normal;
     color:#161616;
     padding-bottom: 2.8rem;
+    padding-top: 0;
 }
 
 .card p{
